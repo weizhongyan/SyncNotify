@@ -43,6 +43,7 @@
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
             this.notifyIcon1.Text = "SyncNotify";
             this.notifyIcon1.Visible = true;
+            this.notifyIcon1.DoubleClick += new System.EventHandler(this.notifyIcon1_DoubleClick);
             // 
             // contextMenuStrip1
             // 
@@ -50,11 +51,10 @@
             this.openWebInterfaceToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(144, 48);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
             // 
             // openWebInterfaceToolStripMenuItem
             // 
-            this.openWebInterfaceToolStripMenuItem.Image = global::SyncNotify.Properties.Resources.fa_globe;
             this.openWebInterfaceToolStripMenuItem.Name = "openWebInterfaceToolStripMenuItem";
             this.openWebInterfaceToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.openWebInterfaceToolStripMenuItem.Text = "Web Interface";
@@ -62,7 +62,6 @@
             // 
             // exitToolStripMenuItem
             // 
-            this.exitToolStripMenuItem.Image = global::SyncNotify.Properties.Resources.fa_exit;
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.exitToolStripMenuItem.Text = "Exit";

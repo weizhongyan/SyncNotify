@@ -47,6 +47,12 @@ namespace SyncNotify
             Process.Start(sInfo);
         }
 
+        private void notifyIcon1_DoubleClick(object sender, EventArgs e)
+        {
+            ProcessStartInfo sInfo = new ProcessStartInfo("http://127.0.0.1:8384/");
+            Process.Start(sInfo);
+        }
+
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
