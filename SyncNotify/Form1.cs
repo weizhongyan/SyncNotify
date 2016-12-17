@@ -15,6 +15,7 @@ namespace SyncNotify
         {
             InitializeComponent();
             startSyncthing();
+            MessageBox.Show("Syncthing is loading", "SyncthingNotify");
         }
 
         private void Form1_Shown(object sender, EventArgs e)

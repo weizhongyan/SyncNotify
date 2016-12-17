@@ -51,19 +51,19 @@
             this.openWebInterfaceToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(144, 48);
             // 
             // openWebInterfaceToolStripMenuItem
             // 
             this.openWebInterfaceToolStripMenuItem.Name = "openWebInterfaceToolStripMenuItem";
-            this.openWebInterfaceToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openWebInterfaceToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.openWebInterfaceToolStripMenuItem.Text = "Web Interface";
             this.openWebInterfaceToolStripMenuItem.Click += new System.EventHandler(this.openWebInterfaceToolStripMenuItem_Click);
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -71,7 +71,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(346, 202);
+            this.ClientSize = new System.Drawing.Size(331, 119);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Form1";
             this.Shown += new System.EventHandler(this.Form1_Shown);
