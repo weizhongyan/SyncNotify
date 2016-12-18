@@ -32,7 +32,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>syncthingaugustlogo_LdOAOM_256px.ico</ApplicationIcon>
+    <ApplicationIcon>syncnotify.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -75,10 +75,10 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="syncthingaugustlogo_LdOAOM_256px.ico" />
+    <Folder Include="Resources\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\" />
+    <None Include="syncnotify.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -15,7 +15,7 @@ namespace SyncNotify
         {
             InitializeComponent();
             startSyncthing();
-            MessageBox.Show("Syncthing is loading", "SyncthingNotify");
+            MessageBox.Show("Syncthing is loading...", "SyncNotify");
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -35,7 +35,7 @@ namespace SyncNotify
             }
             catch (Exception e)
             {
-                MessageBox.Show("We couldn't find Syncthing.exe","SyncthingNotify");
+                MessageBox.Show("We couldn't find Syncthing.exe", "SyncNotify");
                 this.notifyIcon1.Dispose();
                 System.Diagnostics.Process.GetCurrentProcess().Kill();
             }
