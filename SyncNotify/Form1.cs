@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
-using System.Drawing;
-using System.Text;
 using System.Windows.Forms;
 
 namespace SyncNotify
@@ -14,8 +9,9 @@ namespace SyncNotify
         public Form1()
         {
             InitializeComponent();
+            this.CenterToScreen();
             startSyncthing();
-            MessageBox.Show("Syncthing is loading...", "SyncNotify");
+            MessageBox.Show("Syncthing is loading ...", "SyncNotify");
         }
 
         private void Form1_Shown(object sender, EventArgs e)
@@ -68,6 +64,14 @@ namespace SyncNotify
 
             this.notifyIcon1.Dispose();
             System.Diagnostics.Process.GetCurrentProcess().Kill();
+        }
+
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            using (AboutBox1 box = new AboutBox1())
+            {
+                box.ShowDialog(this);
+            }
         }
 
     }
