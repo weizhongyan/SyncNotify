@@ -101,12 +101,10 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <None Include="syncnotify.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\syncthing.png" />
+    <None Include="Resources\syncnotify1.png" />
+    <None Include="Resources\syncnotify.png" />
+    <Content Include="syncnotify.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
