@@ -63,9 +63,9 @@ namespace SyncNotify.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap syncnotify {
+        internal static System.Drawing.Bitmap syncnotify2 {
             get {
-                object obj = ResourceManager.GetObject("syncnotify", resourceCulture);
+                object obj = ResourceManager.GetObject("syncnotify2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
